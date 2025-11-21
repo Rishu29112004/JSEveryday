@@ -16,12 +16,19 @@ console.log(productsres)
 let nums = [10, 15, 22, 40, 7];
 let numsres= nums.reduce((acc,curr)=>{
     if(curr%2===0){
-        return acc + curr
+      return  acc + curr
     }
-    return acc
+    return acc   
 },0)
-console.log(numsres)
+console.log("check for the ",numsres) // 10 + 22 +40
 
+const arr5=[1,2,3,4,5]
+
+const res=arr5.reduce((acc,curr)=>{
+    return acc=acc+curr
+},0)
+
+console.log("rsult",res)
 
 //4.Return names of students who scored above 50, converted into uppercase.
 let students = [
