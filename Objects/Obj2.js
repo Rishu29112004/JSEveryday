@@ -55,3 +55,9 @@ console.log(datares)
 const scores = { math: 80, science: 95, english: 70 };
 const scoresMax=Object.keys(scores).reduce((a,b)=>scores[a]>scores[b]?a:b)
 console.log(scoresMax)
+
+// Q🔟 Remove a property from object
+const user10 = { name: "Rishu", age: 22, city: "Delhi" };
+delete user10.city
+
+console.log(user10)
