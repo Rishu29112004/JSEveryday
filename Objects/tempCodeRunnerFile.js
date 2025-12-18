@@ -1,2 +1,4 @@
-const objCount=Object.values(obj).length
-// console.log(objCount)
+let sum=0
+// for (let num in cart){
+    
+// }
