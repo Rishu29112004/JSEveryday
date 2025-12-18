@@ -64,7 +64,7 @@ for (let i = 0; i < arr9.length - 1; i++) {
 console.log(isSorted);
 
 // Q🔟 Count frequency of elements
-let arr10 = ["a", "b", "a", "c", "b", "a"];
+let arr10 = ["a", "b", "b", "c", "b", "a"];
 let freq = {};
 
 for (let item of arr10) {
@@ -77,5 +77,6 @@ for (let item of arr10) {
 
 console.log(freq);
 
+console.log(freq)
 
 
