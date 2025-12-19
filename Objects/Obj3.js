@@ -68,3 +68,4 @@ for (let key in users10){
     arr.push({id:Number(key), name:users10[key]})
 }
 console.log(arr)
+console.log(arr)
