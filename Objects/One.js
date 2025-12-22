@@ -80,4 +80,5 @@ function findKeysWithValue(obj, targetValue) {
 
 let data = { a: 1, b: 2, c: 1, d: 3 };
 console.log(findKeysWithValue(data, 1));
+console.log(findKeysWithValue(data, 1));
 
