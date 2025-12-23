@@ -94,3 +94,7 @@ console.log(freq);
 let arr10 = [2, 5, 8, 10];
 let r=arr10.every(num=>num>0)
 console.log(r)
+
+let arr11 = [2,4, 5, 8, 10];
+let ri=arr10.every(num=>num>0)
+console.log(r)
