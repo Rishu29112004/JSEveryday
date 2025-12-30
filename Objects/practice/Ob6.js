@@ -10,6 +10,6 @@ function check(obj){
 console.log(check({}))
 console.log(check({a:5}))
 
-console.log(check({a:5}))
+
 
 
