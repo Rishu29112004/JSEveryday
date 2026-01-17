@@ -87,3 +87,42 @@ for(let i=arr14.length-1;i>0;i--){
 }
 
 // Count how many even numbers are in an array.
+let arr15=[1,2,3,4,5,6,7,8]
+let arr15even=0
+for(let i of arr15){
+    if(i%2===0){
+        arr15even++
+    }
+}
+console.log("Total even:",arr15even)
+
+
+// Create a new array with squared values of an existing array.
+let arr16=[1,2,3,4,5,6,7,8]
+let arr16res=arr16.map((t)=>t*2)
+console.log(arr16res)
+
+// Remove duplicate values from an array.
+let arr17=[1,2,3,3,4,4,4,5,5,6]
+let arr17res=[]
+for (let i of arr17){
+    if(!arr17res.includes(i)){
+        arr17res.push(i)
+    }
+}
+console.log(arr17res)
+
+// Sort an array of numbers in ascending order.
+let arr18=[1,21,2,34,31,32,3]
+arr18.sort((a,b)=>a-b)
+console.log(arr18)
+
+// Check if an array contains a specific value.
+let arr19=[1,21,2,34,31,32,3]
+let arr19inc=arr19.includes(3)
+console.log(arr19inc)
+
+// Merge two arrays.
+let arr01=[1,21,2,34,31,32,3]
+let arr02=[1,2,3,4,5,6,7,8]
+console.log(...arr01,...arr02)
