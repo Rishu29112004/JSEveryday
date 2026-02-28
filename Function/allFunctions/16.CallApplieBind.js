@@ -6,20 +6,22 @@
 
 
 // example 
-function add(a, b, c){
-    return a + b + c;
-}
+// function add(a, b, c){
+//     return a + b + c;
+// }
 
-const partialAdd = add.bind(null, 2);
+// const partialAdd = add.bind(null, 2);
 
-console.log(partialAdd(3,4));
+// console.log(partialAdd(3,4));
 
 
-// example
-function add(a, b, c){
-    return a + b + c;
-}
+// // example
+// function add(a, b, c){
+//     return a + b + c;
+// }
 
-const partialAddd = add.bind(null, 2);
+// const partialAddd = add.bind(null, 2);
 
-console.log(partialAddd(3,4));
+// console.log(partialAddd(3,4));
+
+
