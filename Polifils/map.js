@@ -8,11 +8,11 @@ Array.prototype.customMap=function(callback){
     return res
 }
 
-function add(value){
-    return value + value
-}
+// function add(value){
+//     return value + value
+// }
 
-console.log( arr.customMap(add))
+console.log( arr.customMap(n=>n+n))
 
 
 
