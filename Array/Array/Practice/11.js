@@ -8,3 +8,4 @@ function fib(n) {
 
 }
 console.log(fib(5))
+console.log(fib(5))
