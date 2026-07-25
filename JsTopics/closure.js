@@ -84,8 +84,6 @@ counterfun()
 // add10(3);
 // add5(10);
 
-// Bina code run kiye batao output kya hoga?
-
 // A)
 
 // 8

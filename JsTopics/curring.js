@@ -10,3 +10,9 @@ function add(a){
 }
 
 console.log(add (6)(5)(4))
+
+
+// With arrow function
+const sum=(a)=>(b)=>(c)=>a+b+c
+const fun=sum(4)(5)(45)
+console.log(fun)
