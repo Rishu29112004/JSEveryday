@@ -104,8 +104,4 @@ counterfun()
 
 // D)
 
-// Error
-
-
-
-jgkads
+// Err
