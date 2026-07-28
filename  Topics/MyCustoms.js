@@ -65,4 +65,4 @@ function value(num) {
     return num === 3;
 }
 
-console.log(arr4.myFind(value)); // 3
+console.log(arr4.myFind(value));
