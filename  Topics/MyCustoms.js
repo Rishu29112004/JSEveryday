@@ -66,3 +66,10 @@ function value(num) {
 }
 
 console.log(arr4.myFind(value));
+
+
+//5. flat- convert nested array to single array.
+const nestedArray2 = [1, [2, [3, 4], [7, 5]], 6];
+const flattenedArray2 = nestedArray2.flat(Infinity);
+
+console.log(flattenedArray2);
