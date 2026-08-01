@@ -1,4 +1,8 @@
-// Map
+// Definition:
+// map() executes a function on every element of an array and returns a new array with the transformed values.
+
+
+
 // 1. Double the Numbers
 
 // const arr = [1, 2, 3, 4, 5];
