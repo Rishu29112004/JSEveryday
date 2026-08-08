@@ -47,3 +47,17 @@
 //     return a
 // },{})
 // console.log(res)
+
+// 5. Group Users by Age
+// const users = [
+//   { name: "Rishu", age: 22 },
+//   { name: "Rahul", age: 20 },
+//   { name: "Aman", age: 22 },
+//   { name: "Priya", age: 20 }
+// ];
+
+// const res=users.reduce((a,b)=>{
+//     (a[b.age]=a[b.age] || []).push(b)
+//     return a
+// },{})
+// console.log(res)
