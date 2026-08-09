@@ -61,3 +61,8 @@
 //     return a
 // },{})
 // console.log(res)
+// const res=users.reduce((a,b)=>{
+//     (a[b.age]=a[b.age] || []).push(b)
+//     return a
+// },{})
+// console.log(res)
