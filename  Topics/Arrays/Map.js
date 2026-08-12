@@ -90,3 +90,15 @@
 
 // const res=users.map((t)=>({...t,status:t.age>=18?"Adult":"Minor"}))
 // console.log(res)
+
+
+// 11. Add Status to Every User
+
+// const users = [
+//   { name: "Rishu", age: 22 },
+//   { name: "Rahul", age: 16 },
+//   { name: "Aman", age: 25 }
+// ];
+
+// const res=users.map((t)=>({...t,status:t.age>=18?"Adult":"Minor"}))
+// console.log(res)
