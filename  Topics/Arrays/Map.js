@@ -88,7 +88,6 @@
 //   { name: "Aman", age: 25 }
 // ];
 
-// const res=users.map((t)=>({...t,status:t.age>=18?"Adult":"Minor"}))
-// console.log(res)
+
 
 
