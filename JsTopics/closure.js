@@ -11,62 +11,62 @@
 // This is called a closure.
 
 // Q1.
-function outer(){
-    const name="Rishu"
+// function outer(){
+//     const name="Rishu"
 
-    function inner(){
-        console.log(name)
-    }
-    return inner
-}
+//     function inner(){
+//         console.log(name)
+//     }
+//     return inner
+// }
 
-const namefn=outer()
-namefn()
+// const namefn=outer()
+// namefn()
 
 
 
 // Q2.
-function greet(){
-    return function name(){
-        console.log("hello")
-    }
-}
+// function greet(){
+//     return function name(){
+//         console.log("hello")
+//     }
+// }
 
-const greetfn=greet()
-greetfn()
+// const greetfn=greet()
+// greetfn()
 
 
 
 // Q3.
-function age(){
-    const age=25
+// function age(){
+//     const age=25
 
-    return function(){
-        console.log(age)
-    }
-}
+//     return function(){
+//         console.log(age)
+//     }
+// }
 
-const agefn=age()
-agefn()
+// const agefn=age()
+// agefn()
 
 
 
 // Q4.
-function counter(){
-    let count =0
+// function counter(){
+//     let count =0
 
-    function increase(){
-        count++
-        console.log(count)
-    }
+//     function increase(){
+//         count++
+//         console.log(count)
+//     }
 
-    return increase
-}
+//     return increase
+// }
 
-const counterfun=counter()
-counterfun()
-counterfun()
-counterfun()
+// const counterfun=counter()
+// counterfun()
+// counterfun()
+// counterfun()
 
 
 
@@ -84,24 +84,16 @@ counterfun()
 // add10(3);
 // add5(10);
 
-// A)
 
-// 8
-// 13
-// 15
 
-// B)
 
-// 5
-// 10
-// 15
+function outer(){
+    const name = "rishu"
+    function inner(){
+        console.log(name)
+    }
+    return inner
+}
 
-// C)
-
-// 8
-// 8
-// 15
-
-// D)
-
-// Err
+const res = outer()
+res()
