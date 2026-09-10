@@ -87,13 +87,4 @@
 
 
 
-function outer(){
-    var name="Rishu"
-    function inner(){
-        console.log(name)
-    }
-    return inner
-}
 
-var res=outer()
-res()
