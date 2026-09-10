@@ -88,12 +88,12 @@
 
 
 function outer(){
-    const name = "rishu"
+    var name="Rishu"
     function inner(){
         console.log(name)
     }
     return inner
 }
 
-const res = outer()
+var res=outer()
 res()
