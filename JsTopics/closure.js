@@ -84,6 +84,20 @@
 // add10(3);
 // add5(10);
 
+// Question 5: Predict the Output
+// function createAdder(x) {
+//     return function (y) {
+//         console.log(x + y);
+//     };
+// }
+
+// const add5 = createAdder(5);
+// const add10 = createAdder(10);
+
+// add5(3);
+// add10(3);
+// add5(10);
+
 
 
 
