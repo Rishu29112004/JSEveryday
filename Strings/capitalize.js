@@ -31,13 +31,14 @@
 
 // Q5. Capitalize the first letter of each word without using map()
 
-const str = "i love learning javascript";
+// const str = "i love learning javascript";
 
-const words = str.split(" ");
-let res = "";
+// const words = str.split(" ");
+// let res = "";
 
-for (let i = 0; i < words.length; i++) {
-  res += words[i][0].toUpperCase() + words[i].slice(1) + " ";
-}
+// for (let i = 0; i < words.length; i++) {
+//   res += words[i][0].toUpperCase() + words[i].slice(1) + " ";
+// }
 
-console.log(res.trim());
+// console.log(res.trim());
+
