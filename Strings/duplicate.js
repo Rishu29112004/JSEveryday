@@ -81,26 +81,26 @@
 
 
 
-// Q5. Find the character that occurs the most in a string
-const str = "success";
-const res={}
-let max=0;
-let result=""
-for(let i=0; i<str.length; i++){
-    if(res[str[i]]!==undefined){
-        res[str[i]]++
-    }else{
-        res[str[i]]=1
-    }
-}
-for (let key in res){
-    if(res[key]>max){
-        max = res[key]
-        result=key
-    }
+// // Q5. Find the character that occurs the most in a string
+// const str = "success";
+// const res={}
+// let max=0;
+// let result=""
+// for(let i=0; i<str.length; i++){
+//     if(res[str[i]]!==undefined){
+//         res[str[i]]++
+//     }else{
+//         res[str[i]]=1
+//     }
+// }
+// for (let key in res){
+//     if(res[key]>max){
+//         max = res[key]
+//         result=key
+//     }
   
-}
+// }
 
-  console.log(result + ":" +max)
+//   console.log(result + ":" +max)
 // Expected Output:
 // s: 3
