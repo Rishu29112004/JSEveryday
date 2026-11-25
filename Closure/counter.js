@@ -131,7 +131,6 @@
 // 1
 // 2
 
-
 // function createCounter(){
 //     let count=0
 //   return function inner() {
